@@ -8,6 +8,10 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 export PGDATA=/usr/local/var/postgres
 alias pg_start='pg_ctl -l /usr/local/var/postgres/server.log start'
 alias pg_stop='pg_ctl -D /usr/local/var/postgres stop -s -m fast'
+alias ga='git add'
+alias gc='git commit -m'
+alias gp='git push'
+alias gs='git status'
 
 
 [[ -s /Users/taisho6339/.nvm/nvm.sh ]] && . /Users/taisho6339/.nvm/nvm.sh
