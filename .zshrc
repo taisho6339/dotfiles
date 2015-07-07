@@ -28,7 +28,7 @@ SAVEHIST=1000000
 #%# "
 
 PROMPT="
-[ %{${fg[cyan]}%}%~%{${reset_color}%} ]
+[ %{${fg[cyan]}%}%~%{${reset_color}%} ${HOST} ]
 くコ:彡 %$ "
 
 
