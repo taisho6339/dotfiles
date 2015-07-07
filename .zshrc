@@ -176,23 +176,25 @@ case ${OSTYPE} in
 esac
 
 
-function peco-cd()
-{
-    local var
-    local dir
-    if [ ! -t 0 ]; then
-    var=$(cat -)
-    dir=$(echo -n $var | peco)
-    else
-        return 1
-    fi
+pfcd() {
+  local FILENAME="$1"
 
-    if [ -d "$dir" ]; then
-        cd "$dir"
-    else
-        echo "'$dir' was not directory." >&2
-        return 1
-    fi
+  if [ -z "$FILENAME" ] ; then
+    echo "Usage: peco-find-cd <FILENAME>" >&2
+    return 1
+  fi
+
+  local DIR=$(find ~ -maxdepth 5 -name ${FILENAME} | peco | head -n 1)
+
+  if [ -n "$DIR" ] ; then
+    DIR=${DIR%/*}
+    echo "pushd \"$DIR\""
+    pushd "$DIR"
+  fi
+}
+
+pgf() {
+  pfcd '.git'
 }
 
 if [ -s $HOME/.pythonz/etc/bashrc ]; then
