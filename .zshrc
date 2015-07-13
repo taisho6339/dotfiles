@@ -197,6 +197,14 @@ pgf() {
   pfcd '.git'
 }
 
+peco_branch() {
+  local BRANCH="$(git branch | peco | tr -d ' ')"
+  echo $BRANCH
+  if [ -n "$BRANCH" ] ; then
+    git checkout $BRANCH
+  fi
+}
+
 if [ -s $HOME/.pythonz/etc/bashrc ]; then
     source $HOME/.pythonz/etc/bashrc
 fi
