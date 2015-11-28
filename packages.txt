@@ -1,0 +1,16 @@
+atom-beautify@0.28.7
+ever-notedown@0.1.1
+file-icons@1.5.4
+format-sql@0.2.0
+gist-it@0.6.10
+japanese-wrap@0.2.7
+language-gradle@0.0.3
+language-pgsql@0.2.0
+linter@0.12.0
+linter-php@0.0.12
+omnisharp-atom@0.4.1
+phpunit@1.0.9
+recent-files@0.3.0
+sync-md-elephant@0.0.0
+term2@0.9.5
+

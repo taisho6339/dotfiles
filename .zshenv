@@ -39,3 +39,4 @@ source `which virtualenvwrapper.sh`
 
 
 export PATH=$(brew --prefix)/bin:$PATH
+export PATH=$PATH:/Users/taisho6339/activator-1.3.6-minimal

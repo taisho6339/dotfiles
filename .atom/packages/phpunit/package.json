@@ -1,0 +1,272 @@
+{
+  "name": "phpunit",
+  "main": "./lib/phpunit",
+  "version": "1.0.9",
+  "private": false,
+  "description": "A simple PHPUnit test runner.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alairock/phpunit-atom"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.150.0"
+  },
+  "dependencies": {
+    "fs-plus": "2.x",
+    "temp": "~0.6.0",
+    "jquery": "^2"
+  },
+  "readme": "#Looking for maintainer\nI don't have time for this project anymore. This has the fancy 'phpunit' namespace on atom.io so I would relinquish that to you, so long as you promise to take care of it :) Message me if you are interested.\n\n#PHPUnit for Atom\nRun your PHPUnit tests right within the Atom Editor!\n\nTDD (Test driven development) is an extremely important part of development. Now you hold the power within your editor!\n\n### PreReq's\nYou must have PHP and PHPUnit installed. My preference is HomeBrew, but you can do whatever you like. The only real configuration required for this to work is you must have a phpunit.xml configuration file in the root of the project, and you can optionally pass the path of the PHPUnit binary path from in the settings panel. Also PHP and PHPUnit must be executable from within Atom. This might require you to change the permissions of the executables, or make other tweaks to the binaries. (I didn't require any, but just in case).\n\n\n\nTODO:\n![A screenshot of your spankin' package](http://i.imgur.com/oFr8HyM.gif?1)\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/alairock/phpunit-atom/issues"
+  },
+  "homepage": "https://github.com/alairock/phpunit-atom",
+  "_id": "phpunit@1.0.9",
+  "_shasum": "1d26c47fef5789b0831ec6a496e42f880befd27a",
+  "_resolved": "file:../d-115313-51155-1ep6wkg/package.tgz",
+  "_from": "../d-115313-51155-1ep6wkg/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [
+      {
+        "name": "fs-plus",
+        "version": "2.7.0",
+        "path": "node_modules/fs-plus/lib/fs-plus.js"
+      },
+      {
+        "name": "async",
+        "version": "0.2.10",
+        "path": "node_modules/fs-plus/node_modules/async/lib/async.js"
+      },
+      {
+        "name": "mkdirp",
+        "version": "0.3.5",
+        "path": "node_modules/fs-plus/node_modules/mkdirp/index.js"
+      },
+      {
+        "name": "rimraf",
+        "version": "2.2.8",
+        "path": "node_modules/fs-plus/node_modules/rimraf/rimraf.js"
+      },
+      {
+        "name": "underscore-plus",
+        "version": "1.6.6",
+        "path": "node_modules/fs-plus/node_modules/underscore-plus/lib/underscore-plus.js"
+      },
+      {
+        "name": "underscore",
+        "version": "1.6.0",
+        "path": "node_modules/fs-plus/node_modules/underscore-plus/node_modules/underscore/underscore.js"
+      },
+      {
+        "name": "jquery",
+        "version": "2.1.3",
+        "path": "node_modules/jquery/dist/jquery.js"
+      },
+      {
+        "name": "temp",
+        "version": "0.6.0",
+        "path": "node_modules/temp/lib/temp.js"
+      },
+      {
+        "name": "osenv",
+        "version": "0.0.3",
+        "path": "node_modules/temp/node_modules/osenv/osenv.js"
+      },
+      {
+        "name": "rimraf",
+        "version": "2.1.4",
+        "path": "node_modules/temp/node_modules/rimraf/rimraf.js"
+      },
+      {
+        "name": "graceful-fs",
+        "version": "1.2.3",
+        "path": "node_modules/temp/node_modules/rimraf/node_modules/graceful-fs/graceful-fs.js"
+      }
+    ],
+    "extensions": {
+      ".coffee": [
+        "lib/phpunit-view.coffee",
+        "lib/phpunit.coffee"
+      ],
+      ".js": [
+        "node_modules/fs-plus/lib/fs-plus.js",
+        "node_modules/fs-plus/node_modules/async/lib/async.js",
+        "node_modules/fs-plus/node_modules/mkdirp/examples/pow.js",
+        "node_modules/fs-plus/node_modules/mkdirp/index.js",
+        "node_modules/fs-plus/node_modules/rimraf/bin.js",
+        "node_modules/fs-plus/node_modules/rimraf/rimraf.js",
+        "node_modules/fs-plus/node_modules/underscore-plus/lib/underscore-plus.js",
+        "node_modules/fs-plus/node_modules/underscore-plus/node_modules/underscore/underscore-min.js",
+        "node_modules/fs-plus/node_modules/underscore-plus/node_modules/underscore/underscore.js",
+        "node_modules/jquery/dist/cdn/jquery-2.1.3.js",
+        "node_modules/jquery/dist/cdn/jquery-2.1.3.min.js",
+        "node_modules/jquery/dist/jquery.js",
+        "node_modules/jquery/dist/jquery.min.js",
+        "node_modules/jquery/src/ajax/jsonp.js",
+        "node_modules/jquery/src/ajax/load.js",
+        "node_modules/jquery/src/ajax/parseJSON.js",
+        "node_modules/jquery/src/ajax/parseXML.js",
+        "node_modules/jquery/src/ajax/script.js",
+        "node_modules/jquery/src/ajax/var/nonce.js",
+        "node_modules/jquery/src/ajax/var/rquery.js",
+        "node_modules/jquery/src/ajax/xhr.js",
+        "node_modules/jquery/src/ajax.js",
+        "node_modules/jquery/src/attributes/attr.js",
+        "node_modules/jquery/src/attributes/classes.js",
+        "node_modules/jquery/src/attributes/prop.js",
+        "node_modules/jquery/src/attributes/support.js",
+        "node_modules/jquery/src/attributes/val.js",
+        "node_modules/jquery/src/attributes.js",
+        "node_modules/jquery/src/callbacks.js",
+        "node_modules/jquery/src/core/access.js",
+        "node_modules/jquery/src/core/init.js",
+        "node_modules/jquery/src/core/parseHTML.js",
+        "node_modules/jquery/src/core/ready.js",
+        "node_modules/jquery/src/core/var/rsingleTag.js",
+        "node_modules/jquery/src/core.js",
+        "node_modules/jquery/src/css/addGetHookIf.js",
+        "node_modules/jquery/src/css/curCSS.js",
+        "node_modules/jquery/src/css/defaultDisplay.js",
+        "node_modules/jquery/src/css/hiddenVisibleSelectors.js",
+        "node_modules/jquery/src/css/support.js",
+        "node_modules/jquery/src/css/swap.js",
+        "node_modules/jquery/src/css/var/cssExpand.js",
+        "node_modules/jquery/src/css/var/getStyles.js",
+        "node_modules/jquery/src/css/var/isHidden.js",
+        "node_modules/jquery/src/css/var/rmargin.js",
+        "node_modules/jquery/src/css/var/rnumnonpx.js",
+        "node_modules/jquery/src/css.js",
+        "node_modules/jquery/src/data/Data.js",
+        "node_modules/jquery/src/data/accepts.js",
+        "node_modules/jquery/src/data/var/data_priv.js",
+        "node_modules/jquery/src/data/var/data_user.js",
+        "node_modules/jquery/src/data.js",
+        "node_modules/jquery/src/deferred.js",
+        "node_modules/jquery/src/deprecated.js",
+        "node_modules/jquery/src/dimensions.js",
+        "node_modules/jquery/src/effects/Tween.js",
+        "node_modules/jquery/src/effects/animatedSelector.js",
+        "node_modules/jquery/src/effects.js",
+        "node_modules/jquery/src/event/ajax.js",
+        "node_modules/jquery/src/event/alias.js",
+        "node_modules/jquery/src/event/support.js",
+        "node_modules/jquery/src/event.js",
+        "node_modules/jquery/src/exports/amd.js",
+        "node_modules/jquery/src/exports/global.js",
+        "node_modules/jquery/src/intro.js",
+        "node_modules/jquery/src/jquery.js",
+        "node_modules/jquery/src/manipulation/_evalUrl.js",
+        "node_modules/jquery/src/manipulation/support.js",
+        "node_modules/jquery/src/manipulation/var/rcheckableType.js",
+        "node_modules/jquery/src/manipulation.js",
+        "node_modules/jquery/src/offset.js",
+        "node_modules/jquery/src/outro.js",
+        "node_modules/jquery/src/queue/delay.js",
+        "node_modules/jquery/src/queue.js",
+        "node_modules/jquery/src/selector-native.js",
+        "node_modules/jquery/src/selector-sizzle.js",
+        "node_modules/jquery/src/selector.js",
+        "node_modules/jquery/src/serialize.js",
+        "node_modules/jquery/src/sizzle/dist/sizzle.js",
+        "node_modules/jquery/src/sizzle/dist/sizzle.min.js",
+        "node_modules/jquery/src/traversing/findFilter.js",
+        "node_modules/jquery/src/traversing/var/rneedsContext.js",
+        "node_modules/jquery/src/traversing.js",
+        "node_modules/jquery/src/var/arr.js",
+        "node_modules/jquery/src/var/class2type.js",
+        "node_modules/jquery/src/var/concat.js",
+        "node_modules/jquery/src/var/hasOwn.js",
+        "node_modules/jquery/src/var/indexOf.js",
+        "node_modules/jquery/src/var/pnum.js",
+        "node_modules/jquery/src/var/push.js",
+        "node_modules/jquery/src/var/rnotwhite.js",
+        "node_modules/jquery/src/var/slice.js",
+        "node_modules/jquery/src/var/strundefined.js",
+        "node_modules/jquery/src/var/support.js",
+        "node_modules/jquery/src/var/toString.js",
+        "node_modules/jquery/src/wrap.js",
+        "node_modules/temp/examples/grepcount.js",
+        "node_modules/temp/examples/pdfcreator.js",
+        "node_modules/temp/lib/temp.js",
+        "node_modules/temp/node_modules/osenv/osenv.js",
+        "node_modules/temp/node_modules/rimraf/node_modules/graceful-fs/graceful-fs.js",
+        "node_modules/temp/node_modules/rimraf/rimraf.js"
+      ],
+      ".json": [
+        "node_modules/fs-plus/node_modules/async/component.json",
+        "node_modules/fs-plus/node_modules/async/package.json",
+        "node_modules/fs-plus/node_modules/mkdirp/package.json",
+        "node_modules/fs-plus/node_modules/rimraf/package.json",
+        "node_modules/fs-plus/node_modules/underscore-plus/node_modules/underscore/package.json",
+        "node_modules/fs-plus/node_modules/underscore-plus/package.json",
+        "node_modules/fs-plus/package.json",
+        "node_modules/jquery/bower.json",
+        "node_modules/jquery/package.json",
+        "node_modules/temp/node_modules/osenv/package.json",
+        "node_modules/temp/node_modules/rimraf/node_modules/graceful-fs/package.json",
+        "node_modules/temp/node_modules/rimraf/package.json",
+        "node_modules/temp/package.json",
+        "package.json"
+      ]
+    },
+    "folders": [
+      {
+        "paths": [
+          "lib",
+          "",
+          "spec"
+        ],
+        "dependencies": {
+          "fs-plus": "2.x",
+          "temp": "~0.6.0",
+          "jquery": "^2"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/fs-plus/lib",
+          "node_modules/fs-plus"
+        ],
+        "dependencies": {
+          "underscore-plus": "1.x",
+          "mkdirp": "~0.3.5",
+          "rimraf": "~2.2.2",
+          "async": "~0.2.9"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/fs-plus/node_modules/underscore-plus/lib",
+          "node_modules/fs-plus/node_modules/underscore-plus"
+        ],
+        "dependencies": {
+          "underscore": "~1.6.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/temp/examples",
+          "node_modules/temp/lib",
+          "node_modules/temp",
+          "node_modules/temp/test"
+        ],
+        "dependencies": {
+          "rimraf": "~2.1.4",
+          "osenv": "0.0.3"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/temp/node_modules/rimraf",
+          "node_modules/temp/node_modules/rimraf/test"
+        ],
+        "dependencies": {
+          "graceful-fs": "~1"
+        }
+      }
+    ]
+  }
+}

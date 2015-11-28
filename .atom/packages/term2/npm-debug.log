@@ -1,0 +1,440 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Applications/Atom.app/Contents/Resources/app/apm/bin/node',
+1 verbose cli   '/Applications/Atom.app/Contents/Resources/app/apm/node_modules/npm/bin/npm-cli.js',
+1 verbose cli   '--globalconfig',
+1 verbose cli   '/Users/taisho6339/.atom/.apm/.apmrc',
+1 verbose cli   '--userconfig',
+1 verbose cli   '/Users/taisho6339/.atom/.apmrc',
+1 verbose cli   'rebuild',
+1 verbose cli   '--target=0.30.6',
+1 verbose cli   '--arch=x64' ]
+2 info using npm@2.13.3
+3 info using node@v0.10.40
+4 info readInstalled object
+5 verbose rebuild path, id [ '/Users/taisho6339/.atom/packages/term2', 'term2@0.9.5' ]
+6 verbose rebuild path, id [ '/Users/taisho6339/.atom/packages/term2/node_modules/atom-term.js',
+6 verbose rebuild   'atom-term.js@0.0.55' ]
+7 verbose rebuild path, id [ '/Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views',
+7 verbose rebuild   'atom-space-pen-views@2.0.5' ]
+8 verbose rebuild path, id [ '/Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/fuzzaldrin',
+8 verbose rebuild   'fuzzaldrin@2.1.0' ]
+9 verbose rebuild path, id [ '/Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen',
+9 verbose rebuild   'space-pen@5.1.1' ]
+10 verbose rebuild path, id [ '/Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim',
+10 verbose rebuild   'grim@1.2.1' ]
+11 verbose rebuild path, id [ '/Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules/coffeestack',
+11 verbose rebuild   'coffeestack@1.1.1' ]
+12 verbose rebuild path, id [ '/Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules/coffeestack/node_modules/coffee-script',
+12 verbose rebuild   'coffee-script@1.8.0' ]
+13 verbose rebuild path, id [ '/Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules/coffeestack/node_modules/coffee-script/node_modules/mkdirp',
+13 verbose rebuild   'mkdirp@0.3.5' ]
+14 verbose rebuild path, id [ '/Users/taisho6339/.atom/packages/term2/node_modules/fs-plus',
+14 verbose rebuild   'fs-plus@2.7.0' ]
+15 verbose rebuild path, id [ '/Users/taisho6339/.atom/packages/term2/node_modules/fs-plus/node_modules/underscore-plus',
+15 verbose rebuild   'underscore-plus@1.6.6' ]
+16 verbose rebuild path, id [ '/Users/taisho6339/.atom/packages/term2/node_modules/fs-plus/node_modules/underscore-plus/node_modules/underscore',
+16 verbose rebuild   'underscore@1.6.0' ]
+17 verbose rebuild path, id [ '/Users/taisho6339/.atom/packages/term2/node_modules/fs-plus/node_modules/mkdirp',
+17 verbose rebuild   'mkdirp@0.3.5' ]
+18 verbose rebuild path, id [ '/Users/taisho6339/.atom/packages/term2/node_modules/fs-plus/node_modules/rimraf',
+18 verbose rebuild   'rimraf@2.2.8' ]
+19 verbose rebuild path, id [ '/Users/taisho6339/.atom/packages/term2/node_modules/fs-plus/node_modules/async',
+19 verbose rebuild   'async@0.2.10' ]
+20 verbose rebuild path, id [ '/Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules/coffeestack/node_modules/source-map',
+20 verbose rebuild   'source-map@0.1.43' ]
+21 verbose rebuild path, id [ '/Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules/coffeestack/node_modules/source-map/node_modules/amdefine',
+21 verbose rebuild   'amdefine@0.1.0' ]
+22 verbose rebuild path, id [ '/Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules/emissary',
+22 verbose rebuild   'emissary@1.3.3' ]
+23 verbose rebuild path, id [ '/Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/underscore-plus',
+23 verbose rebuild   'underscore-plus@1.6.6' ]
+24 verbose rebuild path, id [ '/Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/underscore-plus/node_modules/underscore',
+24 verbose rebuild   'underscore@1.6.0' ]
+25 verbose rebuild path, id [ '/Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules/emissary/node_modules/mixto',
+25 verbose rebuild   'mixto@1.0.0' ]
+26 verbose rebuild path, id [ '/Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules/emissary/node_modules/property-accessors',
+26 verbose rebuild   'property-accessors@1.1.3' ]
+27 verbose rebuild path, id [ '/Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules/emissary/node_modules/es6-weak-map',
+27 verbose rebuild   'es6-weak-map@0.1.4' ]
+28 verbose rebuild path, id [ '/Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules/emissary/node_modules/es6-weak-map/node_modules/d',
+28 verbose rebuild   'd@0.1.1' ]
+29 verbose rebuild path, id [ '/Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules/emissary/node_modules/es6-weak-map/node_modules/es5-ext',
+29 verbose rebuild   'es5-ext@0.10.6' ]
+30 verbose rebuild path, id [ '/Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules/emissary/node_modules/es6-weak-map/node_modules/es6-iterator',
+30 verbose rebuild   'es6-iterator@0.1.3' ]
+31 verbose rebuild path, id [ '/Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules/emissary/node_modules/es6-weak-map/node_modules/es6-symbol',
+31 verbose rebuild   'es6-symbol@2.0.1' ]
+32 verbose rebuild path, id [ '/Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/jquery',
+32 verbose rebuild   'jquery@2.1.3' ]
+33 verbose rebuild path, id [ '/Users/taisho6339/.atom/packages/term2/node_modules/debounce',
+33 verbose rebuild   'debounce@0.0.3' ]
+34 verbose rebuild path, id [ '/Users/taisho6339/.atom/packages/term2/node_modules/keypather',
+34 verbose rebuild   'keypather@1.8.1' ]
+35 verbose rebuild path, id [ '/Users/taisho6339/.atom/packages/term2/node_modules/pty.js',
+35 verbose rebuild   'pty.js@0.2.7-1' ]
+36 verbose rebuild path, id [ '/Users/taisho6339/.atom/packages/term2/node_modules/pty.js/node_modules/extend',
+36 verbose rebuild   'extend@1.2.1' ]
+37 verbose rebuild path, id [ '/Users/taisho6339/.atom/packages/term2/node_modules/pty.js/node_modules/nan',
+37 verbose rebuild   'nan@1.7.0' ]
+38 silly rebuild set [ '/Users/taisho6339/.atom/packages/term2/node_modules/atom-term.js',
+38 silly rebuild set   '/Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views',
+38 silly rebuild set   '/Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/fuzzaldrin',
+38 silly rebuild set   '/Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen',
+38 silly rebuild set   '/Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim',
+38 silly rebuild set   '/Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules/coffeestack',
+38 silly rebuild set   '/Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules/coffeestack/node_modules/coffee-script',
+38 silly rebuild set   '/Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules/coffeestack/node_modules/coffee-script/node_modules/mkdirp',
+38 silly rebuild set   '/Users/taisho6339/.atom/packages/term2/node_modules/fs-plus',
+38 silly rebuild set   '/Users/taisho6339/.atom/packages/term2/node_modules/fs-plus/node_modules/underscore-plus',
+38 silly rebuild set   '/Users/taisho6339/.atom/packages/term2/node_modules/fs-plus/node_modules/underscore-plus/node_modules/underscore',
+38 silly rebuild set   '/Users/taisho6339/.atom/packages/term2/node_modules/fs-plus/node_modules/mkdirp',
+38 silly rebuild set   '/Users/taisho6339/.atom/packages/term2/node_modules/fs-plus/node_modules/rimraf',
+38 silly rebuild set   '/Users/taisho6339/.atom/packages/term2/node_modules/fs-plus/node_modules/async',
+38 silly rebuild set   '/Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules/coffeestack/node_modules/source-map',
+38 silly rebuild set   '/Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules/coffeestack/node_modules/source-map/node_modules/amdefine',
+38 silly rebuild set   '/Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules/emissary',
+38 silly rebuild set   '/Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/underscore-plus',
+38 silly rebuild set   '/Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/underscore-plus/node_modules/underscore',
+38 silly rebuild set   '/Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules/emissary/node_modules/mixto',
+38 silly rebuild set   '/Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules/emissary/node_modules/property-accessors',
+38 silly rebuild set   '/Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules/emissary/node_modules/es6-weak-map',
+38 silly rebuild set   '/Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules/emissary/node_modules/es6-weak-map/node_modules/d',
+38 silly rebuild set   '/Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules/emissary/node_modules/es6-weak-map/node_modules/es5-ext',
+38 silly rebuild set   '/Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules/emissary/node_modules/es6-weak-map/node_modules/es6-iterator',
+38 silly rebuild set   '/Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules/emissary/node_modules/es6-weak-map/node_modules/es6-symbol',
+38 silly rebuild set   '/Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/jquery',
+38 silly rebuild set   '/Users/taisho6339/.atom/packages/term2/node_modules/debounce',
+38 silly rebuild set   '/Users/taisho6339/.atom/packages/term2/node_modules/keypather',
+38 silly rebuild set   '/Users/taisho6339/.atom/packages/term2/node_modules/pty.js',
+38 silly rebuild set   '/Users/taisho6339/.atom/packages/term2/node_modules/pty.js/node_modules/extend',
+38 silly rebuild set   '/Users/taisho6339/.atom/packages/term2/node_modules/pty.js/node_modules/nan' ]
+39 info build /Users/taisho6339/.atom/packages/term2/node_modules/atom-term.js
+40 info preinstall atom-term.js@0.0.55
+41 info linkStuff atom-term.js@0.0.55
+42 silly linkStuff atom-term.js@0.0.55 has /Users/taisho6339/.atom/packages/term2/node_modules as its parent node_modules
+43 verbose linkBins atom-term.js@0.0.55
+44 verbose linkMans atom-term.js@0.0.55
+45 verbose rebuildBundles atom-term.js@0.0.55
+46 info install atom-term.js@0.0.55
+47 info postinstall atom-term.js@0.0.55
+48 info build /Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views
+49 info preinstall atom-space-pen-views@2.0.5
+50 info linkStuff atom-space-pen-views@2.0.5
+51 silly linkStuff atom-space-pen-views@2.0.5 has /Users/taisho6339/.atom/packages/term2/node_modules as its parent node_modules
+52 verbose linkBins atom-space-pen-views@2.0.5
+53 verbose linkMans atom-space-pen-views@2.0.5
+54 verbose rebuildBundles atom-space-pen-views@2.0.5
+55 verbose rebuildBundles [ 'fuzzaldrin', 'space-pen' ]
+56 info install atom-space-pen-views@2.0.5
+57 info postinstall atom-space-pen-views@2.0.5
+58 info build /Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/fuzzaldrin
+59 info preinstall fuzzaldrin@2.1.0
+60 info linkStuff fuzzaldrin@2.1.0
+61 silly linkStuff fuzzaldrin@2.1.0 has /Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules as its parent node_modules
+62 verbose linkBins fuzzaldrin@2.1.0
+63 verbose linkMans fuzzaldrin@2.1.0
+64 verbose rebuildBundles fuzzaldrin@2.1.0
+65 info install fuzzaldrin@2.1.0
+66 info postinstall fuzzaldrin@2.1.0
+67 info build /Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen
+68 info preinstall space-pen@5.1.1
+69 info linkStuff space-pen@5.1.1
+70 silly linkStuff space-pen@5.1.1 has /Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules as its parent node_modules
+71 verbose linkBins space-pen@5.1.1
+72 verbose linkMans space-pen@5.1.1
+73 verbose rebuildBundles space-pen@5.1.1
+74 verbose rebuildBundles [ 'grim', 'jquery', 'underscore-plus' ]
+75 info install space-pen@5.1.1
+76 info postinstall space-pen@5.1.1
+77 info build /Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim
+78 info preinstall grim@1.2.1
+79 info linkStuff grim@1.2.1
+80 silly linkStuff grim@1.2.1 has /Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules as its parent node_modules
+81 verbose linkBins grim@1.2.1
+82 verbose linkMans grim@1.2.1
+83 verbose rebuildBundles grim@1.2.1
+84 verbose rebuildBundles [ 'coffeestack', 'emissary' ]
+85 info install grim@1.2.1
+86 info postinstall grim@1.2.1
+87 info build /Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules/coffeestack
+88 info preinstall coffeestack@1.1.1
+89 info linkStuff coffeestack@1.1.1
+90 silly linkStuff coffeestack@1.1.1 has /Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules as its parent node_modules
+91 verbose linkBins coffeestack@1.1.1
+92 verbose linkMans coffeestack@1.1.1
+93 verbose rebuildBundles coffeestack@1.1.1
+94 verbose rebuildBundles [ '.bin', 'coffee-script', 'source-map' ]
+95 info install coffeestack@1.1.1
+96 info postinstall coffeestack@1.1.1
+97 info build /Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules/coffeestack/node_modules/coffee-script
+98 info preinstall coffee-script@1.8.0
+99 info linkStuff coffee-script@1.8.0
+100 silly linkStuff coffee-script@1.8.0 has /Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules/coffeestack/node_modules as its parent node_modules
+101 verbose linkBins coffee-script@1.8.0
+102 verbose link bins [ { coffee: './bin/coffee', cake: './bin/cake' },
+102 verbose link bins   '/Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules/coffeestack/node_modules/.bin',
+102 verbose link bins   false ]
+103 verbose linkMans coffee-script@1.8.0
+104 verbose rebuildBundles coffee-script@1.8.0
+105 verbose rebuildBundles [ 'mkdirp' ]
+106 silly gentlyRm /Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules/coffeestack/node_modules/.bin/coffee is being purged
+107 verbose gentlyRm don't care about contents; nuking /Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules/coffeestack/node_modules/.bin/coffee
+108 silly gentlyRm /Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules/coffeestack/node_modules/.bin/cake is being purged
+109 verbose gentlyRm don't care about contents; nuking /Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules/coffeestack/node_modules/.bin/cake
+110 silly vacuum-fs purging /Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules/coffeestack/node_modules/.bin/coffee
+111 silly vacuum-fs purging /Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules/coffeestack/node_modules/.bin/cake
+112 silly vacuum-fs removing /Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules/coffeestack/node_modules/.bin
+113 silly vacuum-fs removing /Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules/coffeestack/node_modules/.bin
+114 silly vacuum-fs quitting because lost the race to remove /Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules/coffeestack/node_modules/.bin
+115 silly vacuum-fs quitting because other entries in /Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules/coffeestack/node_modules
+116 info install coffee-script@1.8.0
+117 info postinstall coffee-script@1.8.0
+118 info build /Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules/coffeestack/node_modules/coffee-script/node_modules/mkdirp
+119 info preinstall mkdirp@0.3.5
+120 info linkStuff mkdirp@0.3.5
+121 silly linkStuff mkdirp@0.3.5 has /Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules/coffeestack/node_modules/coffee-script/node_modules as its parent node_modules
+122 verbose linkBins mkdirp@0.3.5
+123 verbose linkMans mkdirp@0.3.5
+124 verbose rebuildBundles mkdirp@0.3.5
+125 info install mkdirp@0.3.5
+126 info postinstall mkdirp@0.3.5
+127 info build /Users/taisho6339/.atom/packages/term2/node_modules/fs-plus
+128 info preinstall fs-plus@2.7.0
+129 info linkStuff fs-plus@2.7.0
+130 silly linkStuff fs-plus@2.7.0 has /Users/taisho6339/.atom/packages/term2/node_modules as its parent node_modules
+131 verbose linkBins fs-plus@2.7.0
+132 verbose linkMans fs-plus@2.7.0
+133 verbose rebuildBundles fs-plus@2.7.0
+134 verbose rebuildBundles [ '.bin', 'async', 'mkdirp', 'rimraf', 'underscore-plus' ]
+135 info install fs-plus@2.7.0
+136 info postinstall fs-plus@2.7.0
+137 info build /Users/taisho6339/.atom/packages/term2/node_modules/fs-plus/node_modules/underscore-plus
+138 info preinstall underscore-plus@1.6.6
+139 info linkStuff underscore-plus@1.6.6
+140 silly linkStuff underscore-plus@1.6.6 has /Users/taisho6339/.atom/packages/term2/node_modules/fs-plus/node_modules as its parent node_modules
+141 verbose linkBins underscore-plus@1.6.6
+142 verbose linkMans underscore-plus@1.6.6
+143 verbose rebuildBundles underscore-plus@1.6.6
+144 verbose rebuildBundles [ 'underscore' ]
+145 info install underscore-plus@1.6.6
+146 info postinstall underscore-plus@1.6.6
+147 info build /Users/taisho6339/.atom/packages/term2/node_modules/fs-plus/node_modules/underscore-plus/node_modules/underscore
+148 info preinstall underscore@1.6.0
+149 info linkStuff underscore@1.6.0
+150 silly linkStuff underscore@1.6.0 has /Users/taisho6339/.atom/packages/term2/node_modules/fs-plus/node_modules/underscore-plus/node_modules as its parent node_modules
+151 verbose linkBins underscore@1.6.0
+152 verbose linkMans underscore@1.6.0
+153 verbose rebuildBundles underscore@1.6.0
+154 info install underscore@1.6.0
+155 info postinstall underscore@1.6.0
+156 info build /Users/taisho6339/.atom/packages/term2/node_modules/fs-plus/node_modules/mkdirp
+157 info preinstall mkdirp@0.3.5
+158 info linkStuff mkdirp@0.3.5
+159 silly linkStuff mkdirp@0.3.5 has /Users/taisho6339/.atom/packages/term2/node_modules/fs-plus/node_modules as its parent node_modules
+160 verbose linkBins mkdirp@0.3.5
+161 verbose linkMans mkdirp@0.3.5
+162 verbose rebuildBundles mkdirp@0.3.5
+163 info install mkdirp@0.3.5
+164 info postinstall mkdirp@0.3.5
+165 info build /Users/taisho6339/.atom/packages/term2/node_modules/fs-plus/node_modules/rimraf
+166 info preinstall rimraf@2.2.8
+167 info linkStuff rimraf@2.2.8
+168 silly linkStuff rimraf@2.2.8 has /Users/taisho6339/.atom/packages/term2/node_modules/fs-plus/node_modules as its parent node_modules
+169 verbose linkBins rimraf@2.2.8
+170 verbose link bins [ { rimraf: './bin.js' },
+170 verbose link bins   '/Users/taisho6339/.atom/packages/term2/node_modules/fs-plus/node_modules/.bin',
+170 verbose link bins   false ]
+171 verbose linkMans rimraf@2.2.8
+172 verbose rebuildBundles rimraf@2.2.8
+173 silly gentlyRm /Users/taisho6339/.atom/packages/term2/node_modules/fs-plus/node_modules/.bin/rimraf is being purged
+174 verbose gentlyRm don't care about contents; nuking /Users/taisho6339/.atom/packages/term2/node_modules/fs-plus/node_modules/.bin/rimraf
+175 silly vacuum-fs purging /Users/taisho6339/.atom/packages/term2/node_modules/fs-plus/node_modules/.bin/rimraf
+176 silly vacuum-fs removing /Users/taisho6339/.atom/packages/term2/node_modules/fs-plus/node_modules/.bin
+177 silly vacuum-fs quitting because other entries in /Users/taisho6339/.atom/packages/term2/node_modules/fs-plus/node_modules
+178 info install rimraf@2.2.8
+179 info postinstall rimraf@2.2.8
+180 info build /Users/taisho6339/.atom/packages/term2/node_modules/fs-plus/node_modules/async
+181 info preinstall async@0.2.10
+182 info linkStuff async@0.2.10
+183 silly linkStuff async@0.2.10 has /Users/taisho6339/.atom/packages/term2/node_modules/fs-plus/node_modules as its parent node_modules
+184 verbose linkBins async@0.2.10
+185 verbose linkMans async@0.2.10
+186 verbose rebuildBundles async@0.2.10
+187 info install async@0.2.10
+188 info postinstall async@0.2.10
+189 info build /Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules/coffeestack/node_modules/source-map
+190 info preinstall source-map@0.1.43
+191 info linkStuff source-map@0.1.43
+192 silly linkStuff source-map@0.1.43 has /Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules/coffeestack/node_modules as its parent node_modules
+193 verbose linkBins source-map@0.1.43
+194 verbose linkMans source-map@0.1.43
+195 verbose rebuildBundles source-map@0.1.43
+196 verbose rebuildBundles [ 'amdefine' ]
+197 info install source-map@0.1.43
+198 info postinstall source-map@0.1.43
+199 info build /Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules/coffeestack/node_modules/source-map/node_modules/amdefine
+200 info preinstall amdefine@0.1.0
+201 info linkStuff amdefine@0.1.0
+202 silly linkStuff amdefine@0.1.0 has /Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules/coffeestack/node_modules/source-map/node_modules as its parent node_modules
+203 verbose linkBins amdefine@0.1.0
+204 verbose linkMans amdefine@0.1.0
+205 verbose rebuildBundles amdefine@0.1.0
+206 info install amdefine@0.1.0
+207 info postinstall amdefine@0.1.0
+208 info build /Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules/emissary
+209 info preinstall emissary@1.3.3
+210 info linkStuff emissary@1.3.3
+211 silly linkStuff emissary@1.3.3 has /Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules as its parent node_modules
+212 verbose linkBins emissary@1.3.3
+213 verbose linkMans emissary@1.3.3
+214 verbose rebuildBundles emissary@1.3.3
+215 verbose rebuildBundles [ 'es6-weak-map', 'mixto', 'property-accessors' ]
+216 info install emissary@1.3.3
+217 info postinstall emissary@1.3.3
+218 info build /Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/underscore-plus
+219 info preinstall underscore-plus@1.6.6
+220 info linkStuff underscore-plus@1.6.6
+221 silly linkStuff underscore-plus@1.6.6 has /Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules as its parent node_modules
+222 verbose linkBins underscore-plus@1.6.6
+223 verbose linkMans underscore-plus@1.6.6
+224 verbose rebuildBundles underscore-plus@1.6.6
+225 verbose rebuildBundles [ 'underscore' ]
+226 info install underscore-plus@1.6.6
+227 info postinstall underscore-plus@1.6.6
+228 info build /Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/underscore-plus/node_modules/underscore
+229 info preinstall underscore@1.6.0
+230 info linkStuff underscore@1.6.0
+231 silly linkStuff underscore@1.6.0 has /Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/underscore-plus/node_modules as its parent node_modules
+232 verbose linkBins underscore@1.6.0
+233 verbose linkMans underscore@1.6.0
+234 verbose rebuildBundles underscore@1.6.0
+235 info install underscore@1.6.0
+236 info postinstall underscore@1.6.0
+237 info build /Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules/emissary/node_modules/mixto
+238 info preinstall mixto@1.0.0
+239 info linkStuff mixto@1.0.0
+240 silly linkStuff mixto@1.0.0 has /Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules/emissary/node_modules as its parent node_modules
+241 verbose linkBins mixto@1.0.0
+242 verbose linkMans mixto@1.0.0
+243 verbose rebuildBundles mixto@1.0.0
+244 info install mixto@1.0.0
+245 info postinstall mixto@1.0.0
+246 info build /Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules/emissary/node_modules/property-accessors
+247 info preinstall property-accessors@1.1.3
+248 info linkStuff property-accessors@1.1.3
+249 silly linkStuff property-accessors@1.1.3 has /Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules/emissary/node_modules as its parent node_modules
+250 verbose linkBins property-accessors@1.1.3
+251 verbose linkMans property-accessors@1.1.3
+252 verbose rebuildBundles property-accessors@1.1.3
+253 info install property-accessors@1.1.3
+254 info postinstall property-accessors@1.1.3
+255 info build /Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules/emissary/node_modules/es6-weak-map
+256 info preinstall es6-weak-map@0.1.4
+257 info linkStuff es6-weak-map@0.1.4
+258 silly linkStuff es6-weak-map@0.1.4 has /Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules/emissary/node_modules as its parent node_modules
+259 verbose linkBins es6-weak-map@0.1.4
+260 verbose linkMans es6-weak-map@0.1.4
+261 verbose rebuildBundles es6-weak-map@0.1.4
+262 verbose rebuildBundles [ 'd', 'es5-ext', 'es6-iterator', 'es6-symbol' ]
+263 info install es6-weak-map@0.1.4
+264 info postinstall es6-weak-map@0.1.4
+265 info build /Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules/emissary/node_modules/es6-weak-map/node_modules/d
+266 info preinstall d@0.1.1
+267 info linkStuff d@0.1.1
+268 silly linkStuff d@0.1.1 has /Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules/emissary/node_modules/es6-weak-map/node_modules as its parent node_modules
+269 verbose linkBins d@0.1.1
+270 verbose linkMans d@0.1.1
+271 verbose rebuildBundles d@0.1.1
+272 info install d@0.1.1
+273 info postinstall d@0.1.1
+274 info build /Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules/emissary/node_modules/es6-weak-map/node_modules/es5-ext
+275 info preinstall es5-ext@0.10.6
+276 info linkStuff es5-ext@0.10.6
+277 silly linkStuff es5-ext@0.10.6 has /Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules/emissary/node_modules/es6-weak-map/node_modules as its parent node_modules
+278 verbose linkBins es5-ext@0.10.6
+279 verbose linkMans es5-ext@0.10.6
+280 verbose rebuildBundles es5-ext@0.10.6
+281 info install es5-ext@0.10.6
+282 info postinstall es5-ext@0.10.6
+283 info build /Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules/emissary/node_modules/es6-weak-map/node_modules/es6-iterator
+284 info preinstall es6-iterator@0.1.3
+285 info linkStuff es6-iterator@0.1.3
+286 silly linkStuff es6-iterator@0.1.3 has /Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules/emissary/node_modules/es6-weak-map/node_modules as its parent node_modules
+287 verbose linkBins es6-iterator@0.1.3
+288 verbose linkMans es6-iterator@0.1.3
+289 verbose rebuildBundles es6-iterator@0.1.3
+290 info install es6-iterator@0.1.3
+291 info postinstall es6-iterator@0.1.3
+292 info build /Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules/emissary/node_modules/es6-weak-map/node_modules/es6-symbol
+293 info preinstall es6-symbol@2.0.1
+294 info linkStuff es6-symbol@2.0.1
+295 silly linkStuff es6-symbol@2.0.1 has /Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules/emissary/node_modules/es6-weak-map/node_modules as its parent node_modules
+296 verbose linkBins es6-symbol@2.0.1
+297 verbose linkMans es6-symbol@2.0.1
+298 verbose rebuildBundles es6-symbol@2.0.1
+299 info install es6-symbol@2.0.1
+300 info postinstall es6-symbol@2.0.1
+301 info build /Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/jquery
+302 info preinstall jquery@2.1.3
+303 info linkStuff jquery@2.1.3
+304 silly linkStuff jquery@2.1.3 has /Users/taisho6339/.atom/packages/term2/node_modules/atom-space-pen-views/node_modules/space-pen/node_modules as its parent node_modules
+305 verbose linkBins jquery@2.1.3
+306 verbose linkMans jquery@2.1.3
+307 verbose rebuildBundles jquery@2.1.3
+308 info install jquery@2.1.3
+309 info postinstall jquery@2.1.3
+310 info build /Users/taisho6339/.atom/packages/term2/node_modules/debounce
+311 info preinstall debounce@0.0.3
+312 info linkStuff debounce@0.0.3
+313 silly linkStuff debounce@0.0.3 has /Users/taisho6339/.atom/packages/term2/node_modules as its parent node_modules
+314 verbose linkBins debounce@0.0.3
+315 verbose linkMans debounce@0.0.3
+316 verbose rebuildBundles debounce@0.0.3
+317 info install debounce@0.0.3
+318 info postinstall debounce@0.0.3
+319 info build /Users/taisho6339/.atom/packages/term2/node_modules/keypather
+320 info preinstall keypather@1.8.1
+321 info linkStuff keypather@1.8.1
+322 silly linkStuff keypather@1.8.1 has /Users/taisho6339/.atom/packages/term2/node_modules as its parent node_modules
+323 verbose linkBins keypather@1.8.1
+324 verbose linkMans keypather@1.8.1
+325 verbose rebuildBundles keypather@1.8.1
+326 info install keypather@1.8.1
+327 info postinstall keypather@1.8.1
+328 info build /Users/taisho6339/.atom/packages/term2/node_modules/pty.js
+329 info preinstall pty.js@0.2.7-1
+330 info linkStuff pty.js@0.2.7-1
+331 silly linkStuff pty.js@0.2.7-1 has /Users/taisho6339/.atom/packages/term2/node_modules as its parent node_modules
+332 verbose linkBins pty.js@0.2.7-1
+333 verbose linkMans pty.js@0.2.7-1
+334 verbose rebuildBundles pty.js@0.2.7-1
+335 verbose rebuildBundles [ 'extend', 'nan' ]
+336 info install pty.js@0.2.7-1
+337 verbose unsafe-perm in lifecycle true
+338 info pty.js@0.2.7-1 Failed to exec install script
+339 verbose stack Error: pty.js@0.2.7-1 install: `node-gyp rebuild`
+339 verbose stack Exit status 1
+339 verbose stack     at EventEmitter.<anonymous> (/Applications/Atom.app/Contents/Resources/app/apm/node_modules/npm/lib/utils/lifecycle.js:214:16)
+339 verbose stack     at EventEmitter.emit (events.js:98:17)
+339 verbose stack     at ChildProcess.<anonymous> (/Applications/Atom.app/Contents/Resources/app/apm/node_modules/npm/lib/utils/spawn.js:24:14)
+339 verbose stack     at ChildProcess.emit (events.js:98:17)
+339 verbose stack     at maybeClose (child_process.js:766:16)
+339 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:833:5)
+340 verbose pkgid pty.js@0.2.7-1
+341 verbose cwd /Users/taisho6339/.atom/packages/term2
+342 error Darwin 14.5.0
+343 error argv "/Applications/Atom.app/Contents/Resources/app/apm/bin/node" "/Applications/Atom.app/Contents/Resources/app/apm/node_modules/npm/bin/npm-cli.js" "--globalconfig" "/Users/taisho6339/.atom/.apm/.apmrc" "--userconfig" "/Users/taisho6339/.atom/.apmrc" "rebuild" "--target=0.30.6" "--arch=x64"
+344 error node v0.10.40
+345 error npm  v2.13.3
+346 error code ELIFECYCLE
+347 error pty.js@0.2.7-1 install: `node-gyp rebuild`
+347 error Exit status 1
+348 error Failed at the pty.js@0.2.7-1 install script 'node-gyp rebuild'.
+348 error This is most likely a problem with the pty.js package,
+348 error not with npm itself.
+348 error Tell the author that this fails on your system:
+348 error     node-gyp rebuild
+348 error You can get their info via:
+348 error     npm owner ls pty.js
+348 error There is likely additional logging output above.
+349 verbose exit [ 1, true ]
