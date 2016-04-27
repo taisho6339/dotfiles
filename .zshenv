@@ -31,8 +31,14 @@ export PATH=$COCOS_CONSOLE_ROOT:$PATH
 export NDK_ROOT=/Users/taisho6339/android-ndk-r9d
 export PATH=$NDK_ROOT:$PATH
 
-export WORKON_HOME=$HOME/.virtualenv
-source `which virtualenvwrapper.sh`
+## virtualenv, virtualenvwrapper
+which virtualenvwrapper.sh > /dev/null
+if [ $? -eq 0 ]; then
+    source `which virtualenvwrapper.sh`
+    mkdir -p ~/.virtualenvs
+    export WORKON_HOME=~/.virtualenvs
+    export PIP_RESPECT_VIRTUALENV=true
+fi
 
 [[ -s $HOME/.pythonz/etc/zshrc ]] && source $HOME/.pythonz/etc/zshrc
 
