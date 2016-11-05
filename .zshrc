@@ -124,7 +124,7 @@ zstyle ':completion:*' list-colors 'di=36' 'ln=35' 'ex=32'
 # エイリアス
 
 alias la='ls -a'
-alias ll='ls -l'
+alias ll='ls -la'
 alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
