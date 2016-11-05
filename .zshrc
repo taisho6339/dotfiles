@@ -1,8 +1,3 @@
- # 少し凝った zshrc
-# License : MIT
-# http://mollifier.mit-license.org/
-
-
 ########################################
 # 環境変数
 export LANG=ja_JP.UTF-8
@@ -130,12 +125,15 @@ zstyle ':completion:*' list-colors 'di=36' 'ln=35' 'ex=32'
 
 alias la='ls -a'
 alias ll='ls -l'
-
 alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
-
 alias mkdir='mkdir -p'
+alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
+alias ga='git add'
+alias gc='git commit -m'
+alias gp='git push'
+alias gs='git status'
 
 # sudo の後のコマンドでエイリアスを有効にする
 alias sudo='sudo '
@@ -143,8 +141,6 @@ alias sudo='sudo '
 # グローバルエイリアス
 alias -g L='| less'
 alias -g G='| grep'
-
-alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
 
 # C で標準出力をクリップボードにコピーする
 # mollifier delta blog : http://mollifier.hatenablog.com/entry/20100317/p1
@@ -158,7 +154,6 @@ elif which putclip >/dev/null 2>&1 ; then
     # Cygwin
     alias -g C='| putclip'
 fi
-
 
 ########################################
 # OS 別の設定
@@ -208,8 +203,3 @@ peco_branch() {
 if [ -s $HOME/.pythonz/etc/bashrc ]; then
     source $HOME/.pythonz/etc/bashrc
 fi
-
-
-
-#THIS MUST BE AT THE END OF THE FILE FOR GVM TO WORK!!!
-[[ -s "/Users/taisho6339/.gvm/bin/gvm-init.sh" ]] && source "/Users/taisho6339/.gvm/bin/gvm-init.sh"
